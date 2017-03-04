@@ -1,0 +1,58 @@
+.container {
+    font-family: Calibri;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+}
+
+.city {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.temp {
+    font-size: 30px;
+    color: black;
+}
+
+.current {
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.forecast {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.tempature {
+    display: flex;
+    flow-direction: row;
+    justify-content: center;
+    color: black;
+}
+
+.hightemp {
+    display: flex;
+}
+
+.lowtemp {
+    display: flex;
+}
+
+.item {
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px grey solid;
+    text-align: center;
+    flex-direction: column;
+}

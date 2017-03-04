@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <!--5. Include Jquery library. This is used to get weather API data -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="select">
+            CITY
+        </div>
+        <div class="city">
+            <!--TODO: 1: Create a dropdown with a list of cities -->
+
+            <select id="cityDropdown">
+              <option value="Vancouver">Vancouver
+              </option>
+              <option value="Seoul">Seoul</option>
+              <option value="Silicon Valley">Silicon Valley</option>
+              <option value="Toronto">Toronto</option>
+              <option value="Osaka">Osaka</option>
+            </select>
+
+          </div>
+        <!--TODO: 2: Create a placeholder to display current weather -->
+        <!-- 3: Create a placeholder to display 10 days forecast-->
+
+
+        <div class="current">
+          <div class="item">
+            <div class="city"></div>
+            <div class="date"></div>
+            <div class="temp"></div>
+            <div class="description"></div>
+          </div>
+        </div>
+        <div class="forecast">
+            <div class="item" id="item0">
+                <div class="date">
+                </div>
+                <div class="tempature">
+                    <div class="hightemp">
+                    </div> |
+                    <div class="lowtemp">
+                    </div>
+                </div>
+                <div class="description">
+                </div>
+            </div>
+            <div class="item" id="item1">
+                <div class="date">
+                </div>
+                <div class="tempature">
+                    <div class="hightemp">
+                    </div> |
+                    <div class="lowtemp">
+                    </div>
+                </div>
+                <div class="description">
+                </div>
+            </div>
+            <div class="item" id="item2">
+                <div class="date">
+                </div>
+                <div class="tempature">
+                    <div class="hightemp">
+                    </div> |
+                    <div class="lowtemp">
+                    </div>
+                </div>
+                <div class="description">
+                </div>
+            </div>
+            <div class="item" id="item3">
+                <div class="date">
+                </div>
+                <div class="tempature">
+                    <div class="hightemp">
+                    </div> |
+                    <div class="lowtemp">
+                    </div>
+                </div>
+                <div class="description">
+                </div>
+            </div>
+            <div class="item" id="item4">
+                <div class="date">
+                </div>
+                <div class="tempature">
+                    <div class="hightemp">
+                    </div> |
+                    <div class="lowtemp">
+                    </div>
+                </div>
+                <div class="description">
+                </div>
+            </div>
+            <div class="item" id="item5">
+                <div class="date">
+                </div>
+                <div class="tempature">
+                    <div class="hightemp">
+                    </div> |
+                    <div class="lowtemp">
+                    </div>
+                </div>
+                <div class="description">
+                </div>
+            </div>
+            <div class="item" id="item6">
+                <div class="date">
+                </div>
+                <div class="tempature">
+                    <div class="hightemp">
+                    </div> |
+                    <div class="lowtemp">
+                    </div>
+                </div>
+                <div class="description">
+                </div>
+            </div>
+            <div class="item" id="item7">
+                <div class="date">
+                </div>
+                <div class="tempature">
+                    <div class="hightemp">
+                    </div> |
+                    <div class="lowtemp">
+                    </div>
+                </div>
+                <div class="description">
+                </div>
+            </div>
+            <div class="item" id="item8">
+                <div class="date">
+                </div>
+                <div class="tempature">
+                    <div class="hightemp">
+                    </div> |
+                    <div class="lowtemp">
+                    </div>
+                </div>
+                <div class="description">
+                </div>
+            </div>
+            <div class="item" id="item9">
+                <div class="date">
+                </div>
+                <div class="tempature">
+                    <div class="hightemp">
+                    </div> |
+                    <div class="lowtemp">
+                    </div>
+                </div>
+                <div class="description">
+                </div>
+            </div>
+         </div>
+    </div>
+</body>
+<!--4. Include JavaScript source library-->
+<script src="weather.js"></script>
+</html>
